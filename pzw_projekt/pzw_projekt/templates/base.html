@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PZW aplikacija</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  
+    <nav class="nav">
+        <ul>
+            <li><a href="http://127.0.0.1:5000/">Početna</a></li>
+             <li><a href="/osnovno">Osnovno</a></li>
+             <li><img src="/static/css/img/pzw-logo.jpg" width="60" height="60"></li>
+             <li><a href="/flask">Flask</a></li>
+             <li><a href="/phyton">Phyton
+             </a></li>
+        </ul>
+         </nav>
+        
+                
+    {% block content %}
+
+    {% endblock content %}
+    <br><br><br>
+    <footer>
+        <p>&copy; 2024 Stranica programiranja. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
