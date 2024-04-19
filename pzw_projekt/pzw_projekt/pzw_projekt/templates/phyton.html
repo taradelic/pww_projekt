@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="header">
+    <h1>Python</h1>
+   
+  </div>
+  <br>
+  <br>
+  <form >
+    <fieldset>
+<p><h2>1. Osnovni pojmovi</h2>
+
+    Programiranje je pisanje uputa računalu što i kako učiniti, a izvodi se u nekom od programskih jezika. Programiranje je umjetnost i umijeće u stvaranju programa za računala. Stvaranje programa sadrži u sebi pojedine elemente dizajna, umjetnosti, znanosti, matematike kao i inžinjeringa.
+    
+    <h2>1.1. Programska podrška</h2>
+    Programska podrška (software) je skup svih programa koji se mogu izvršavati na računalu.
+    Podjela software-a (programa):
+    1) Sistemski programi
+    
+    Operacijski sustavi kao MS-DOS, UNIX, Linux (Fedora, RedHat, Mandrake Ubuntu), Windows (95, NT, XP, 7, 8)
+    Pogonski programi - driveri
+    Mrežni programi (NFS, TCP/IP)
+    Ostali uslužni programi - antivirusni programi, programi za čišćenje diska...
+    
+   Aplikativni programi (korisnički programi)
+    Rješava probleme specifične za neku problematiku
+    Uredski programi - Tablični kalkulatori (npr. Excel), uređivači teksta (npr. Word)
+    Multimedija - Obrada slike (npr. Photoshop ili GIMP), obrađivači slike filma i zvuka, playeri ...
+    Tehničko crtanje (npr. AutoCAD)
+    Pretraživači interneta, računalne igre
+    ...
+    Bez operativnog sustava ne mogu raditi korisnički programi.
+    <h2>1.2. Program</h2>
+Računalom upravlja niz naredbi (instrukcija) koje piše programeri na način da nižu naredbe u smislenom redoslijedu.
+Kombinacijom naredbi nastaje program.
+Naredbe moraju biti u obliku u kojem će ih računalo razumjeti.
+Programski jezici omogućuju pisanje računalnih programa.
+Svaki programski jezik koristi ključne riječi od kojih se formiraju naredbe računalu.
+Svaki programski jezik ima propisana pravila slaganja ključnih riječi u naredbe - sintaksu.
+Ako se ne zadovolji propisana sintaksa, program će biti neispravan i neće se moći izvršiti.
+
+<h2>1.3. Izvorni i izvršni oblik programa</h2>
+  Računalo (procesor) razumije samo programe napisane u strojnom (binarnom) obliku.
+  Svaki drugi oblik zapisa programa potrebno je prije izvođenja prevesti u binarni oblik.
+  Program u binarni oblik prevodi program prevodioc (kompajler ili interpreter).
+  Kompajleri prevode cijeli program u strojni opblik prije početka njegovog izvršavanja.
+  Interpreteri prevode program u strojni oblik jednu po jednu naredbu za vrijeme izvođenja programa.
+  Većina suvremenih programskih jezika koristi kompajler, pa je potrebno izvršiti kompajliranje da bi se program mogao pokrenuti. Kompajliranje
+   
+  je postupak prevođenja izvornog programskog koda (kojeg piše programer) u izvršni programski kod razumljiv računalu.
+</p>
+    </fieldset>
+  </form>
+<div class="slike">
+  <img src="/static/img/375px-Listing1.jpg" width="200px" height="300px">
+  <img src="/static/img/220px-Operating_system_placement.svg.png" width="200px" height="300px">
+  <img src="/static/img/images.jpg" width="200px" height="300px">
+</div>
+<fieldset>
+<div class="algoritam">
+    <h2>1.3. Algoritam</h2>
+
+    <div class="kolone">
+
+      <p>
+        Algoritam predstavlja precizno opisan način rješenja nekog problema
+        Jednoznačno određuje što treba napraviti
+        Mora imati konačan broj koraka opisanih instrukcijom
+        Ako se neki od koraka izostavi ili se promjeni njihov redoslijed algoritam neće biti korsitan.
+        Primjer algoritma korištenja bankomata:
+        umetnite karticu u čitač tako da magnetska traka bude s donje desne strane
+        u slučaju da to od Vas uređaj zatraži odaberite jezik
+        odaberite iznos ili uslugu
+        odgovorite želite li potvrdu
+        uzmite karticu
+        uzmite novac
+        uzmite potvrdu ako ste potvrdili da ju želite
+      </p>
+  
+      
+      <img class="prvi" src="/static/img/Bez naslova.jpg">
+    </div>
+    </div>
+</fieldset>
+ 
+
+{% endblock content %}

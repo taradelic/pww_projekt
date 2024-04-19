@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="header">
+    <h1>Flask</h1>
+  
+  </div>
+  <br>
+  <br>
+  <form >
+    <fieldset>
+<p>Flask framework je uistinu toliko mali da sveukupni izvorni kod za verziju 0.10.1. ima svega
+  1,21 megabajta. No opet to ga ne čini malim, dovoljno je samo primijetiti da Disqus sa svojim 50
+  miliona korisnika koristi Flask koji je tek napunio 3 godine.
+  Snaga Flaska je upravo u tome što sam programer odabire načine na koji pristupa problemu,
+  budući da Flask nema nativnu podršku za pristup bazama, validaciju web formi, autentikaciju
+  korisnika ili neki drugi zadatak više razine.
+  Ovo su upravo ključni faktori za razvoj Web 2.0 aplikacije, tako da je odgovornost na
+  programeru da proširuje Flask kroz mnogobrojne ekstenzije. Ovaj pristup daje fleksibilnost
+  razvoja, za razliku od drugim frameworka gdje su ti izbori već odlučeni umjesto nas
+</p>
+    </fieldset>
+  </form>
+<div class="slike">
+  <img src="/static/img/Understanding-Python-Flask.webp" width="400px" height="500px">
+  <img src="/static/img/image32.png" width="400px" height="500px">
+  <img src="/static/img/UPDATE-Python-Web-Applications-with-Flask-1_Watermarked.webp" width="200px" height="300px">
+</div>
+<fieldset>
+<div class="algoritam">
+    <h2> 1.1.Instalacija</h2>
+
+    <div class="kolone">
+
+      <p>
+      
+        Instalacija virtualnog okružja uvelike olakšava rad sa Flaskom budući da je neophodan rad sa
+        njegovim mnogim ekstenzijama, broj službenih ekstenzija trenutno prelazi brojku 50, te
+        svakodnevno raste.
+        Virtualno okružje se instalira pomoću Python modula pip, putem komandne linije unosimo
+        naredbu pip install virtualenv koja će za nas instalirati virtualno okružje koje će nam
+        ujedno od sada služiti kao razvojno okružje. Navigacijom unutar venv\Scripts\activate
+        aktiviramo radno okružje, dok opcijom deactivate deaktiviramo virtualno okružje kada nam
+        više nije potrebno. Nakon što aktiviramo virtualno okružje dobivamo oznaku (venv) ispred
+        naše komandne linije, te smo spremni instalirati Flask, 
+      </p>
+  
+      
+      <img class="prvi" src="/static/img/How-to-Install-Flask.png">
+    </div>
+    </div>
+</fieldset>
+ 
+
+{% endblock content %}
